@@ -1,17 +1,18 @@
-import React from 'react'
+import React from 'react';
+import ScrollToButton from './scrollToButton';
 
 const navbar = () => {
   return (
     <nav className="navbar">
-        <div className="navbar-headline">
+        <ScrollToButton toId="demo"><div className="navbar-headline">
             The Game
-        </div>
-        <div className="navbar-headline">
+        </div></ScrollToButton>
+        <ScrollToButton toId="project"><div className="navbar-headline">
             The Project
-        </div>
-        <div className="navbar-headline">
+        </div></ScrollToButton>
+        <ScrollToButton toId="team"><div className="navbar-headline">
             The Team
-        </div>
+        </div></ScrollToButton>
     </nav>
   )
 }

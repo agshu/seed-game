@@ -41,21 +41,35 @@ h1 {
 .navbar {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: right;
   align-items: center;
   height: 10vh;
-  padding-right: 50px;
+  padding-right: 20px;
   background-color: #4BA69D;
   background-color: black;
 }
 
 .navbar-headline {
-  margin: 20px;
+  margin: 0px;
+  width: 150px;
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-size: large;
   cursor: pointer;
+}
+
+.btn-scroll {
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: large;
+  cursor: pointer;
+  border: none;
+}
+
+.navbar-headline:hover {
+  font-weight: bolder;
 }
 
 /* demo-section */

@@ -6,14 +6,17 @@ import Navbar from './navbar.js'
 import Team from './team.js'
 import Demo from './demo.js'
 import Images from './images'
+import Section from "./section";
+import React from 'react';
 
 function App() {
+  const descriptionRef = React.useRef(null);
   return (
     <div className="App">
       <Navbar/>
       <div className="header"><img src={wave} className="wave-bot"></img><img src={headerImg} className="headerImg"></img></div>
-      <Demo />
-      <Images />
+      <Section id="demo" ref={descriptionRef}/><Demo />
+      <Images /><Section id="project" ref={descriptionRef}/>
 
       <div className="project-section">
         <a href="" target="_blank" className="project-h1"><h1>View on Github</h1></a>
@@ -26,7 +29,7 @@ function App() {
         <img src={footerImg} className="footer-img"></img>
       </footer>
 
-        <Team />
+      <Section id="team" ref={descriptionRef}/><Team />
     </div>
   );
 }
