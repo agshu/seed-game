@@ -2,7 +2,7 @@ import React from 'react'
 
 const demo = () => {
   return (
-    <div className="demo-section">
+    <div className="demo-section" data-aos="fade-up">
     <section className="video">
       <div>video</div>
     </section>

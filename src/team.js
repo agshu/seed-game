@@ -4,7 +4,7 @@ import headerImg from './images/img.png';
 const team = () => {
     return (
       
-        <div>
+        <div data-aos="fade-up">
           <h1 className="team-headline">The Team</h1>
           <section className="container-team">
               <div className="profile">

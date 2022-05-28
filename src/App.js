@@ -8,17 +8,20 @@ import Demo from './demo.js'
 import Images from './images'
 import Section from "./section";
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  AOS.init();
   const descriptionRef = React.useRef(null);
   return (
-    <div className="App">
+    <div className="App animate__animated animate__fadeIn"  >
       <Navbar/>
       <div className="header"><img src={wave} className="wave-bot"></img><img src={headerImg} className="headerImg"></img></div>
       <Section id="demo" ref={descriptionRef}/><Demo />
       <Images /><Section id="project" ref={descriptionRef}/>
 
-      <div className="project-section">
+      <div className="project-section" data-aos="fade-up">
         <a href="" target="_blank" className="project-h1"><h1>View on Github</h1></a>
         <a href="" target="_blank" className="project-h1"><h1>Game Design Document</h1></a>
       </div>

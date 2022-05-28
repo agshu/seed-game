@@ -9,8 +9,7 @@ const images = () => {
     <div className="img-section">
         <img src={wave} className="wave-bot"></img>
         <img src={wave} className="wave-img"></img>
-
-        <div className="images">
+        <div className="images" data-aos="fade-up">
             <img src={level1} className="img-img"></img>
             <img src={level4} className="img-img"></img>
             <img src={final} className="img-img"></img>
