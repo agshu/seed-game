@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/seed-game/static/css/main.e8222953.css",
+    "main.css": "/seed-game/static/css/main.d77fb515.css",
     "main.js": "/seed-game/static/js/main.7d4d5f46.js",
     "static/media/img6.png": "/seed-game/static/media/img6.6fc072abee0059ef6856.png",
     "static/media/img.png": "/seed-game/static/media/img.993300e9905ca5f3bfb7.png",
@@ -14,11 +14,11 @@
     "static/media/mood.jpg": "/seed-game/static/media/mood.fc1bfe0ae38e4f91357d.jpg",
     "static/media/wave.png": "/seed-game/static/media/wave.d440ab1aca5e29ddf78c.png",
     "index.html": "/seed-game/index.html",
-    "main.e8222953.css.map": "/seed-game/static/css/main.e8222953.css.map",
+    "main.d77fb515.css.map": "/seed-game/static/css/main.d77fb515.css.map",
     "main.7d4d5f46.js.map": "/seed-game/static/js/main.7d4d5f46.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8222953.css",
+    "static/css/main.d77fb515.css",
     "static/js/main.7d4d5f46.js"
   ]
 }
