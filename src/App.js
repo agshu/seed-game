@@ -22,8 +22,9 @@ function App() {
       <Images /><Section id="project" ref={descriptionRef}/>
 
       <div className="project-section" data-aos="fade-up">
-        <a href="" target="_blank" className="project-h1"><h1>View on Github</h1></a>
-        <a href="" target="_blank" className="project-h1"><h1>Game Design Document</h1></a>
+        <a href="https://github.com/Oriaf/plantaseed" target="_blank" className="project-h1"><h1>View on Github</h1></a>
+        <a href="https://docs.google.com/document/d/1w8IFGimbCHb4mnpOhfaMhQfZo6VjOPI76HD_wDdlTfE/edit?usp=sharing" target="_blank" className="project-h1"><h1>Game Design Document</h1></a>
+        <a href="https://drive.google.com/file/d/1d7wjuvSy0alMg4Z1zEOsbvfpbglvZdDu/view?usp=sharing" target="_blank" className="project-h1"><h1>Download Game (Android) </h1></a>
       </div>
       
       <footer className="footer">
@@ -31,8 +32,8 @@ function App() {
         <img src={wave} className="wave-bot"></img>
         <img src={footerImg} className="footer-img"></img>
       </footer>
-
-      <Section id="team" ref={descriptionRef}/><Team />
+      <Section id="team" ref={descriptionRef}/>
+      <Team />
     </div>
   );
 }

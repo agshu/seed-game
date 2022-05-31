@@ -4,7 +4,7 @@ const demo = () => {
   return (
     <div className="demo-section" data-aos="fade-up">
     <section className="video">
-      <div>video</div>
+      <iframe className="video-vid" src="https://player.vimeo.com/video/715525789?h=3bb6031f58&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="SEED TRAILER"></iframe>
     </section>
 
     <section className="demo-text">

@@ -90,17 +90,21 @@ h1 {
 
 
 .video {
-  background-color: grey;
+  padding-right: 10px;
+  padding-top: 50px;
+}
+
+.video-vid {
+  width: 600px;
   height: 300px;
-  width: 500px;
-  padding-right: 20px;
 }
 
 .demo-text {
-  height: 300px;
+  height: fit-content;
   width: 500px;
   text-align: center;
   padding-left: 20px;
+  overflow: scroll;
 }
 
 /* img-section */
@@ -114,7 +118,7 @@ h1 {
 .wave-img {
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 100vw;
 }
 
 .images {
@@ -145,13 +149,14 @@ h1 {
 .project-h1 {
   cursor: pointer;
   color: black;
+  width: 200px;
+  text-align: center;
 }
 
 /* footer section */
 
 .footer {
   position: relative;
-  background-color: aliceblue;
 }
 
 .footer-img {
@@ -167,14 +172,14 @@ h1 {
   position: absolute;
   z-index: 3;
   top: 0px;
-  width: 100%;
+  width: 100vw;
 }
 
 .wave-bot {
   position: absolute;
   z-index: 4;
   bottom: 0px;
-  width: 100%;
+  width: 100vw;
   transform: rotate(180deg);
   
 }
@@ -278,7 +283,7 @@ h1 {
   .demo-section {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     height: fit-content;
     background-color: white;
@@ -288,14 +293,24 @@ h1 {
   
   
   .video {
-    background-color: grey;
     height: fit-content;
-    width: 90%;
+    width:90vw;
+    padding: 0px;
+    margin: 0px;
+    
   }
+
+  .video-vid {
+    width: 90vw;
+
+    padding: 0px;
+    margin: 0px;
+}
   
   .demo-text {
     height: fit-content;
     width: 90%;
+    padding-left: 0px;
     text-align: center;
   }
 
